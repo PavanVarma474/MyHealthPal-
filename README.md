@@ -126,9 +126,11 @@ Start the server
 
 
 ## Screenshots
-![App Screenshot]
-(https://github.com/PavanVarma474/MyHealthPal-/blob/main/test%20screenshots/homepage.jpeg?raw=true)
 ![App Screenshot](https://github.com/PavanVarma474/MyHealthPal-/blob/main/test%20screenshots/file%20upoad%20edit%20values.jpeg?raw=true)
+![App Screenshot](https://github.com/PavanVarma474/MyHealthPal-/blob/main/test%20screenshots/file%20upoad%20edit%20values.jpeg?raw=true)
+![App Screenshot](https://github.com/PavanVarma474/MyHealthPal-/blob/main/test%20screenshots/file%20upoad%20edit%20values.jpeg?raw=true)
+
+
 
 
 ## Tech Stack
