@@ -3,6 +3,7 @@
 import { initializeApp, cert }  from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
 import configuration from './Your_Firebase_Credentials_file.js';
+// create a firebase foirestore project and download the service accounts private key
 
 const serviceAccount = configuration;
 
