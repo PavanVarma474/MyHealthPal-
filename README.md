@@ -43,27 +43,27 @@ The Automatic Health Monitoring System streamlines diagnostic report maintenance
 
 ## FAQ
 
-#### What is MYhealthpal?
-MYhealthpal is an Automatic Health Monitoring System designed to automate diagnostic report maintenance in suburban and rural areas. It includes an AI-enabled chatbot for healthcare assistance and a dynamic dashboard for analyzing health report variations.
+#### What is MyHealthPal?
+MyHealthPal is an Automatic Health Monitoring System designed to automate diagnostic report maintenance in suburban and rural areas. It includes an AI-enabled chatbot for healthcare assistance and a dynamic dashboard for analyzing health report variations.
 
 
-#### How does MYhealthpal work?
+#### How does MyHealthPal work?
 
-MYhealthpal utilizes advanced technology to automate the maintenance of diagnostic reports. Patients can upload their reports, which are securely stored in a high-speed database. The AI chatbot assists users with healthcare queries, while the dynamic dashboard provides comprehensive analysis of health report variations.
+MyHealthPal utilizes advanced technology to automate the maintenance of diagnostic reports. Patients can upload their reports, which are securely stored in a high-speed database. The AI chatbot assists users with healthcare queries, while the dynamic dashboard provides comprehensive analysis of health report variations.
 
 
-#### What are the benefits of using MYhealthpal?
-MYhealthpal reduces costs and maximizes healthcare resources by streamlining diagnostic report maintenance. It enhances patient-doctor interactions, provides valuable insights, and ensures secure access to diagnostic reports.
-#### Who can use MYhealthpal?
-MYhealthpal is designed for both patients and doctors. Patients can upload their diagnostic reports and interact with the AI chatbot for healthcare assistance. Doctors can access patient reports, view graphs, and review medical history through the dynamic dashboard.
+#### What are the benefits of using MyHealthPal?
+MyHealthPal reduces costs and maximizes healthcare resources by streamlining diagnostic report maintenance. It enhances patient-doctor interactions, provides valuable insights, and ensures secure access to diagnostic reports.
+#### Who can use MyHealthPal?
+MyHealthPal is designed for both patients and doctors. Patients can upload their diagnostic reports and interact with the AI chatbot for healthcare assistance. Doctors can access patient reports, view graphs, and review medical history through the dynamic dashboard.
 #### Is MYhealthpal secure?
-Yes, MYhealthpal ensures secure access to diagnostic reports through authentication mechanisms. Reports are stored in a high-speed
+Yes, MyHealthPal ensures secure access to diagnostic reports through authentication mechanisms. Reports are stored in a high-speed
 
 ## Architecture 
-The MYhealthpal system architecture consists of the following components:
+The MyHealthPal system architecture consists of the following components:
 
 Frontend: Developed using ReactJS for the user interface.
-Backend: Utilizes Node.js  for server-side logic.
+Backend: Utilizes Node.js and Express.js for server-side logic.
 Database: Stores patient data using Firebase Firestore.
 AI Chatbot: Integrated with Google AI Studio for natural language processing.
 ## Features
@@ -99,20 +99,22 @@ One obstacle encountered during the project was devising a responsive and intera
 Clone the project
 
 ```bash
-  git clone https://github.com/your-username/MYhealthpal.git
+  git clone https://github.com/your-username/MyHealthPal.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd MYhealthpal
+  cd MyHealthPal
 ```
 
-Install dependencies
+Install dependencies(prerequesite)
 
 ```bash
   npm install
 ```
+
+include api keys in specific files mentioned(two Google Ai Studio Api keys and friebase firestore configuration)
 
 Start the server
 
