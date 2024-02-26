@@ -2,6 +2,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 
 const api_key1="Your_API_Key";
+//got to Google Ai Studio and create a new APi key
 const genAI1= new GoogleGenerativeAI(api_key1);
 const generationConfig1 = { temperature: 0.9, topP: 1, topK: 1, maxOutputTokens: 4096 };
 const model1 = genAI1.getGenerativeModel({ model: "gemini-pro", generationConfig1 });
