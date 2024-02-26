@@ -118,10 +118,12 @@ Start the server
 
 ```bash
   open two terminals
-    in first terminal :cd server
-            nodemon server.js
-    in second terminal:cd client
-    yarn start
+    in first terminal 
+       :cd server
+        nodemon server.js
+    in second terminal
+       :cd client
+        yarn start
 ```
 
 
