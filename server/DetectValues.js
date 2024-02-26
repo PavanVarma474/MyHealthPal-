@@ -1,6 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 import { promises as fs } from 'fs';
+//got to Google Ai Studio and create a new APi key
 
 const api_key = 'Your_API_Key'; // Replace with your actual API key
 const genAI = new GoogleGenerativeAI(api_key);
